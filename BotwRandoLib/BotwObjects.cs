@@ -27,7 +27,7 @@ namespace BotwRandoLib
             List<string> chuchulist = GenerateChuchuList();
             List<string> littleGolemsList = GenerateLittleGolemList();
             List<string> subBossList = GenerateSubBossList();
-            List<string> lynelList = GenerateLynelList();
+            List<string> lynelList = GenerateSubBossList();
             List<string> enemyGuardList = GenerateEnemyGuardList();
             List<string> enemyGuardAmbushList = GenerateEnemyGuardAmbushList();
             List<string> enemyTreehouseGuardList = GenerateEnemyTreeHouseGuardList();
@@ -103,7 +103,8 @@ namespace BotwRandoLib
                 "Enemy_Lynel_Junior",
                 "Enemy_Lynel_Middle",
                 "Enemy_Lynel_Senior",
-                "Enemy_Lynel_Gold"
+                "Enemy_Lynel_Gold",
+                "Enemy_Lynel_Gold_Ancient"
             };
         }
 
@@ -142,6 +143,7 @@ namespace BotwRandoLib
                 "Weapon_Spear_023",
                 "Weapon_Spear_024",
                 "Weapon_Spear_025",
+                "Weapon_Spear_026",
                 "Weapon_Spear_027",
                 "Weapon_Spear_028",
                 "Weapon_Spear_029",
@@ -183,6 +185,7 @@ namespace BotwRandoLib
                 "Weapon_Lsword_020",
                 "Weapon_Lsword_023",
                 "Weapon_Lsword_024",
+                "Weapon_Lsword_026",
                 "Weapon_Lsword_027",
                 "Weapon_Lsword_029",
                 "Weapon_Lsword_030",
@@ -231,6 +234,7 @@ namespace BotwRandoLib
                 "Weapon_Sword_023",
                 "Weapon_Sword_024",
                 "Weapon_Sword_025",
+                "Weapon_Sword_026",
                 "Weapon_Sword_027",
                 "Weapon_Sword_029",
                 "Weapon_Sword_030",
@@ -252,7 +256,8 @@ namespace BotwRandoLib
                 "Weapon_Sword_060",
                 "Weapon_Sword_061",
                 "Weapon_Sword_062",
-                "Weapon_Sword_073"
+                "Weapon_Sword_073",
+                "Weapon_Sword_074"
             };
         }
 
@@ -280,6 +285,7 @@ namespace BotwRandoLib
                 "Weapon_Shield_023",
                 "Weapon_Shield_025",
                 "Weapon_Shield_026",
+                "Weapon_Shield_027",
                 "Weapon_Shield_030",
                 "Weapon_Shield_031",
                 "Weapon_Shield_032",
@@ -312,6 +318,7 @@ namespace BotwRandoLib
                 "Weapon_Bow_016",
                 "Weapon_Bow_017",
                 "Weapon_Bow_023",
+                "Weapon_Bow_024",
                 "Weapon_Bow_026",
                 "Weapon_Bow_027",
                 "Weapon_Bow_028",
@@ -322,7 +329,8 @@ namespace BotwRandoLib
                 "Weapon_Bow_035",
                 "Weapon_Bow_036",
                 "Weapon_Bow_038",
-                "Weapon_Bow_040"
+                "Weapon_Bow_040",
+                "AncientBowMark"
             };
         }
 
@@ -336,6 +344,8 @@ namespace BotwRandoLib
                 "Enemy_Bokoblin_Senior",
                 "Enemy_Bokoblin_Dark",
                 "Enemy_Bokoblin_Gold",
+                "Enemy_Bokoblin_Gold_Volcano",
+                "Enemy_Bokoblin_Malice",
                 "Enemy_Bokoblin_Bone_Junior_AllDay",
                 // Lialfos
                 "Enemy_Lizalfos_Junior",
@@ -346,12 +356,16 @@ namespace BotwRandoLib
                 "Enemy_Lizalfos_Electric",
                 "Enemy_Lizalfos_Fire",
                 "Enemy_Lizalfos_Ice",
+                "Enemy_Lizalfos_Gold_Volcano",
+                "Enemy_Lizalfos_Malice",
                 // Moriblins
                 "Enemy_Moriblin_Junior",
                 "Enemy_Moriblin_Middle",
                 "Enemy_Moriblin_Senior",
                 "Enemy_Moriblin_Dark",
                 "Enemy_Moriblin_Gold",
+                "Enemy_Moriblin_Gold_Volcano",
+                "Enemy_Moriblin_Malice",
                 // Mini Guardians
                 "Enemy_Guardian_Mini_Baby",
                 "Enemy_Guardian_Mini_Junior",
@@ -424,7 +438,15 @@ namespace BotwRandoLib
                 "Enemy_Giant_Junior",
                 "Enemy_Giant_Middle",
                 "Enemy_Giant_Senior",
-                "Enemy_Guardian_A"
+                "Enemy_Giant_Dark",
+                "Enemy_Guardian_A",
+                "Enemy_Lynel_Dark",
+                "Enemy_Lynel_Junior",
+                "Enemy_Lynel_Middle",
+                "Enemy_Lynel_Senior",
+                "Enemy_Lynel_Gold",
+                "Enemy_Lynel_Gold_Ancient",
+                "Enemy_Guardian_A_Malice"
             };
         }
 
@@ -514,7 +536,8 @@ namespace BotwRandoLib
                 "Enemy_Guardian_A",
                 "Enemy_Guardian_A_Moss",
                 "Enemy_Guardian_A_Sand",
-                "Enemy_Guardian_A_Snow"
+                "Enemy_Guardian_A_Snow",
+                "Enemy_Guardian_A_Malice"
             };
         }
 
@@ -791,6 +814,8 @@ namespace BotwRandoLib
             {
                 "Obj_ArrowBundle_A_01",
                 "Obj_ArrowBundle_A_02",
+                "Obj_ArrowBundle_A_50",
+                "Obj_ArrowBundle_A_100",
                 "Obj_BombArrow_A_02",
                 "Obj_BombArrow_A_03",
                 "Obj_BombArrow_A_04",

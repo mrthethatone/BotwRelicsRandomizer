@@ -15,7 +15,7 @@ namespace BotwRandoLib
 
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_KorokNuts", "Korok Seed"), 100);
 
-            ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Bow_071", "Bow of Light"), 1);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Bow_071", "Bow of Light"), 2);
 
             ChestDropTable.Add(new KeyValuePair<string, string>("PutRupee", "Green Rupee"), 10);
             ChestDropTable.Add(new KeyValuePair<string, string>("PutRupee_Blue", "Blue Rupee"), 8);
@@ -297,6 +297,13 @@ namespace BotwRandoLib
             ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Bow_038", ""), 4);
             ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Bow_040", ""), 4);
 
+            ChestDropTable.Add(new KeyValuePair<string, string>("AncientBowMark", ""), 4);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Bow_024", ""), 4);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Spear_026", ""), 4);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Sword_026", ""), 4);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Lsword_026", ""), 4);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Weapon_Shield_027", ""), 4);
+
             ChestDropTable.Add(new KeyValuePair<string, string>("Item_Enemy_00", ""), 2);
             ChestDropTable.Add(new KeyValuePair<string, string>("Item_Enemy_01", ""), 2);
             ChestDropTable.Add(new KeyValuePair<string, string>("Item_Enemy_02", ""), 2);
@@ -373,6 +380,8 @@ namespace BotwRandoLib
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_AncientArrow_C_01", ""), 6);
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_ArrowBundle_A_01", ""), 6);
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_ArrowBundle_A_02", ""), 6);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Obj_ArrowBundle_A_50", ""), 6);
+            ChestDropTable.Add(new KeyValuePair<string, string>("Obj_ArrowBundle_A_100", ""), 6);
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_ArrowNormal_A_01", ""), 6);
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_BombArrow_A_01", ""), 6);
             ChestDropTable.Add(new KeyValuePair<string, string>("Obj_BombArrow_A_02", ""), 6);
